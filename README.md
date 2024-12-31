@@ -45,7 +45,7 @@ Comparison of true, noisy, and denoised images:
 
 ---
 
-## Installation
+## Usage
 
 1. Clone the repository:
    ```bash
@@ -60,18 +60,10 @@ Comparison of true, noisy, and denoised images:
 
 3. Download and extract the LFWcrop Face Dataset into the `dataset/lfwcrop_color/` folder. You can download the dataset from [LFWcrop Face Dataset](https://conradsanderson.id.au/lfwcrop/).
 
----
-
-## Usage
-
-1. Run the project:
+4. Run the project:
    ```bash
    python src/main.py
    ```
-
-2. Outputs:
-   - **Loss curves**: Saved in `results/train_vs_val_loss.png`.
-   - **Denoised image samples**: Saved in `results/comparison_three_samples.png`.
 
 ---
 
